@@ -1,0 +1,90 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 420px;
+    max-width: 660px;
+    background-color:   hsl(235, 46%, 20%);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+section {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.header div h4 {
+    font-size: 1.4rem;
+}
+.header .login {
+    color: #47B5FF;
+}
+.header .bio {
+    color: rgb(165, 165, 165);
+}
+
+.header .created {
+    color: rgb(165, 165, 165);
+}
+.container_repo {
+    display: flex;
+    background-color:  hsl(226, 43%, 10%);
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.description{
+    color:rgb(165, 165, 165);
+}
+.value {
+    font-size: 1.2rem;
+}
+.container_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    width: 350px;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+}
+.container_info  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.container_info div i {
+    color:rgb(165, 165, 165);
+    font-size: 1.2rem;
+}
+.container_info div p {
+    color:rgb(165, 165, 165);
+    margin: 0;
+}
+a {
+    color:rgb(165, 165, 165);
+    text-decoration: none;
+}

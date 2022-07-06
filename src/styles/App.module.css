@@ -1,0 +1,8 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    min-width: 400px;
+    max-width: 800px;
+    gap: 40px;
+}
